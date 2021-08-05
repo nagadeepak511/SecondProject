@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "form": "Mask"
+    },
+    {
+        "id":2 ,
+        "form":"Liquid"
+    },
+    {
+        "id": 3,
+        "form":"Sanitizer"
+    },
+    {
+        "id":4,
+        "form":"Bottle"
+    },
+    {
+        "id":5,
+        "form":"Pack"
+    },
+    {
+        "id":6,
+        "form":"Unit"
+    },
+    {
+        "id":7,
+        "form":"Spray"
+    },
+    {
+        "id":8,
+        "form":"Wipes"
+    },
+    {
+        "id":9,
+        "form":"Soap"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "brands"
+    },
+    {
+        "id": 2,
+        "name": "discount"
+    },
+    {
+        "id": 3,
+        "name": "product form"
+    },{
+        "id": 4,
+        "name": "uses"
+    }
+]

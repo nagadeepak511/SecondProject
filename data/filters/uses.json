@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "use": "Respiratory Care"
+    },
+    {
+        "id": 2,
+        "use": "Skin Care"
+    },
+    {
+        "id": 3,
+        "use": "Daily living aids"
+    },
+    {
+        "id": 4,
+        "use": "Disinfectants"
+    },
+    {
+        "id": 5,
+        "use": "Surgical Aids"
+    },
+    {
+        "id": 6,
+        "use": "First Aid"
+    },
+    {
+        "id": 7,
+        "use": "Fever & Pain Management"
+    }
+]

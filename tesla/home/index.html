@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Tesla-Electric vehicles</title>
+        <link rel="icon" href="../data/images/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/3e643419a6.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <a href="#"><img id="logo" src="../data/images/logo.svg" alt=""></a>
+            <div id="modelNavContainer">
+                <a href="">Model S</a>
+                <a href="">Model X</a>
+                <a href="">Model Y</a>
+            </div>
+            <div id="menuContainer">
+                <a href="../shop/index.html">Shop</a>
+                <a href="">Account</a>
+                <button onclick="showMenu()">Menu</button>
+            </div>
+        </header>
+        <div id="menu">
+            <div id="closeContainer"><i id="closeButton" onclick="collapseMenu()" class="fas fa-times"></i></div>
+            <li><a href="#">Existing Inventory</a></li>
+            <li><a href="#">Used Inventory</a></li>
+            <li><a href="#">Trade-in</a></li>
+            <li><a href="#">Test Drive</a></li>
+            <li><a href="#">Cybertruck</a></li>
+            <li><a href="#">Roadster</a></li>
+        </div>
+        <script>
+            window.onload = loadCars
+        </script>
+    </body>
+</html>

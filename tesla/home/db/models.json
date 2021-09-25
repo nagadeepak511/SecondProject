@@ -1,0 +1,415 @@
+{
+    "data":[
+        {
+            "category": "interior",
+            "name": "Illuminated Door Sills",
+            "cost":"$250",
+            "color": [],
+            "thumbnails": [
+                "https://i.ibb.co/74hrQVy/1537258-00-A-2.jpg"
+            ],
+            "description": "Add a premium touch to your Tesla by accentuating your vehicle's model name with Model S Illuminated Door Sills. This elegant addition requires no additional wiring to your vehicle's electrical system. Each sill is activated by a magnetic switch and powered by a long-lasting battery with LEDs for seamless installation.",
+            "includes": [
+                "2x illuminated door sills",
+                "2x magnetic switches & installation templates",
+                "1x pry tool"
+            ],
+            "note": "Compatible with Model S vehicles produced in April 2016 - 2020."
+        },
+        {
+            "category": "interior",
+            "name": "Coat Hooks",
+            "cost":"$30",
+            "color": [
+                "black",
+                "white"
+            ],
+            "thumbnails":[
+                "https://i.ibb.co/WkF8swb/1458421-00-A-1.jpg",
+                "https://i.ibb.co/wQ6Z8Sw/1458421-01-A-0.jpg",
+                "https://i.ibb.co/7GTbqH4/1458421-01-A-1.jpg",
+                "https://i.ibb.co/9nm223L/1458421-01-A-2.jpg"
+            ],
+            "description": "Tesla Coat Hooks attach onto first row seatbacks with a simple snap system",
+            "includes": [
+                "2x coat hooks"
+            ],
+            "note": "Compatible with Model S vehicles produced before 12/9/2019 and Model X vehicles produced in 2015-2020."
+        },
+        {
+            "category": "interior",
+            "name": "Rear Liftgate Sunshade",
+            "cost":"$80",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/vHHhMvh/1034622-00-A-0.jpg",
+                "https://i.ibb.co/2qzVdsx/1034622-00-A-1.jpg"
+            ],
+            "description": "Constructed of lightweight mesh fabric with a collapsible rigid frame, the rear sunshade blocks two thirds of solar thermal load without compromising rearward visibility. Easily removable, the sunshade is installed onto the interior of the rear hatch window. When removed, the shade collapses and stores in a 16-inch diameter pouch",
+            "includes": [
+                "1x rear liftgate sunshade",
+                "1x zippered storage pouch"
+            ],
+            "note": "Compatible with Model S vehicles produced in 2012-2020."
+        },
+        {
+            "category": "interior",
+            "name": "Panoramic Roof Sunshades",
+            "cost":"$120",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/yqLndJz/1041683-00-B-0.jpg",
+                "https://i.ibb.co/VSprvCJ/1041683-00-B-1.jpg"
+            ],
+            "description": "Constructed of lightweight mesh fabric with a collapsible rigid frame, the Panoramic Roof Sunshades block two thirds of solar thermal load. Easily removable, the sunshades are installed onto the interior of the front and rear panoramic roof windows. When removed, the shades collapse and store in an 18-inch square pouch",
+            "includes": [
+                "1x front panoramic roof sunshade",
+                "1x rear panoramic roof sunshade",
+                "1x zippered storage pouch"
+            ],
+            "note": "Compatible with Model S vehicles configured with the Panoramic Roof and produced in 2012-2020."
+        },
+        {
+            "category": "interior",
+            "name": "Performance Pedal Set",
+            "cost":"$150",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/4j1Cb3f/1086535-00-A-0.jpg"
+            ],
+            "description": "Enhance the style and appearance of your standard Model S or Model X with the Performance Pedal Set. Constructed of aluminum alloy with raised rubber sectioning, this set includes pedals for the accelerator and brake. ",
+            "includes": [
+                "1x accelerator pedal cover",
+                "1x brake pedal cover"            
+            ],
+            "note": "Compatible with Model S vehicles produced in 2012-2020 and Model X vehicles produced in 2015-2020. Once you have completed checkout for this item, please schedule a Service appointment for installation in your Tesla app. Shipping to your preferred Tesla Service Center and installation are included with purchase."
+        },
+        {
+            "category": "interior",
+            "name": "Quick Connection Phone Dock",
+            "cost":"$25",
+            "color": [
+                "USB-C",
+                "Micro USB"
+            ],
+            "thumbnails":[
+                "https://i.ibb.co/LhdDT5s/1060583-00-B-0.jpg",
+                "https://i.ibb.co/Ksw8WFW/1060583-00-B-1.png",
+                "https://i.ibb.co/3MpVbML/1060583-00-B-2.png",
+                "https://i.ibb.co/ZGm0bmt/1060583-00-B-3.png",
+                "https://i.ibb.co/sw8ypHw/1060583-00-B-6.jpg"
+            ],
+            "description": "Enhance the cockpit ergonomics of your Model S or Model X with the Quick Connection Phone Dock. No longer having to fiddle with loose charging cables, you will be able to blind holster your smartphone quickly and securely.",
+            "includes": [
+                "1x universal docking base",
+                "2x wide and narrow guides for your device",
+                "1x Micro-USB cable or USB-C cable"
+            ],
+            "note": "Compatible with Model S vehicles produced in 2012-2020 and Model X vehicles produced in 2015-2020. For use with Integrated Center Console, the phone dock is not a service-installed accessory. This product is not compatible with 1st generation drop-in Premium Center Console."
+        },
+        {
+            "category": "exterior",
+            "name": "Model S Car Cover",
+            "cost":"$325 - $400",
+            "color": [
+                "outdoor",
+                "indoor"
+            ],
+            "thumbnails":[
+                "https://i.ibb.co/6b92YJh/1017723-00-A-0.jpg",
+                "https://i.ibb.co/QvsbqY0/1017723-00-A-1.jpg",
+                "https://i.ibb.co/3dWhY8b/1017723-00-A-2.jpg",
+                "https://i.ibb.co/pJ6FMty/1017723-00-A-3.jpg",
+                "https://i.ibb.co/whr7c4B/1017723-00-A-4.jpg",
+                "https://i.ibb.co/5n7v51p/1017723-00-A-alt.jpg"
+            ],
+            "description": "Outdoor||Shield your Tesla from the harshest of elements with this Outdoor Car Cover. With a middle layer of Thermoplastic Polyurethane and two outer layers of woven polyester, the cover allows for breathability while providing the best water resistance available today. Convenient charge port openings allow for connection to an outlet, and ventilated mesh allow for air flow while charging|Indoor||Stretch satin fits your Tesla like a glove, hugging its contours and protecting the paint finish from dings, scratches and dust that are imminent with indoor storage. Convenient charge port openings allow for connection to an outlet, and ventilated mesh allow for air flow while charging.",
+            "includes": [
+                "1x car cover",
+                "1x storage bag"
+            ],
+            "note": "Compatible with all Model S vehicles."
+        },
+        {
+            "category": "exterior",
+            "name": "Roof Rack - Glass Roof",
+            "cost":"$400",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/6mJqLWY/1494684-00-A-0.jpg",
+                "https://i.ibb.co/kDpgr7x/1494684-00-A-1.jpg",
+                "https://i.ibb.co/CJWjncv/1494684-00-A-2.jpg"
+            ],
+            "description": "Model S Roof Rack – Glass Roof was designed and engineered from the ground up for maximum aerodynamic efficiency, minimal interior noise and impact to range. The ultra-sleek attachment mechanism featuring die-cast towers and integrated locks makes for easy installation at home. The aluminum powder-coated cross bars include T-slots to seamlessly mount compatible attachments such as ski racks, bike racks and cargo boxes. ",
+            "includes": [],
+            "note": "Compatible with all Model S vehicles. Any Model S built before February 11, 2019 must be retrofitted for roof rack compatibility. Load rating: 150lbs"
+        },
+        {
+            "category": "exterior",
+            "name": "Carbon Fiber Spoiler",
+            "cost":"$1500",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/qk4QYCC/1121299-00-A-0.jpg",
+                "https://i.ibb.co/zscxsYL/1121299-00-A-1.jpg",
+                ""
+            ],
+            "description": "Improve high speed stability by adding the carbon fiber spoiler to your trunk lid. Made from lightweight, cross-woven carbon fibers with a matte epoxy finish.",
+            "includes": [
+                "1x carbon fiber spoiler"
+            ],
+            "note": "Compatible with Model S vehicles produced in 2012-2020. Once you have completed checkout for this item, please schedule a Service appointment for installation in your Tesla app. Shipping to your preferred Tesla Service Center and installation are included with purchase"
+        },
+        {
+            "category": "wheels",
+            "name": "'19' Slipstream Wheel and Winter Tire Package",
+            "cost":"$2,500 - $4,000",
+            "color": [
+                "Silver",
+                "Gray"
+            ],
+            "thumbnails":[
+                "https://i.ibb.co/qgF1ByQ/1091727-00-B-0.jpg",
+                "https://i.ibb.co/rZ7QBx2/1091727-00-B-1.jpg"
+            ],
+            "description": "'Outfit your Model S with new 19' Slipstream Tesla wheels and Pirelli winter-rated tires for the icy months ahead. The aerodynamic wheel design provides 2-3% range improvement based on simulated driving conditions.",
+            "includes": [
+                "4x 19X8.0J SLIPSTREAM wheels",
+                "4x 245/45/19 - Pirelli Sottozero 3 tires",
+                "4x tire pressure sensors",
+                "4x Tesla logo wheel caps"
+            ],
+            "note": "Compatible with Model S vehicles produced in 2012-2020. Once you have completed checkout for this item, please schedule a Service appointment for installation in your Tesla app. Shipping to your preferred Tesla Service Center and installation are included with purchase."
+        },
+        {
+            "category": "wheels",
+            "name": "21\" Black Arachnid Wheel and Tire Package",
+            "cost":"$6000",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/9cRCvLh/1109932-00-B-0.jpg",
+                "https://i.ibb.co/tHBwssf/1109932-00-B-alt.jpg"
+            ],
+            "description": "Customize your Model S with sleek 21” Black Arachnid forged wheels for extreme sport handling. This package comes with low-profile Michelin Pilot Super Sport tires for exceptional steering and braking performance.",
+            "includes": [
+                "2x 21X8.5J Black Arachnid wheels",
+                "2x 21X9.0J Black Arachnid wheels",
+                "2x 245/35/21 – Michelin Pilot Super Sport tires",
+                "2x 265/35/21 – Michelin Pilot Super Sport tires",
+                "4x tire pressure sensors",
+                "4x Tesla logo wheel caps"
+            ],
+            "note": "Compatible with Model S vehicles produced in 2012-2020. Once you have completed checkout for this item, please schedule a Service appointment for installation in your Tesla app. Shipping to your preferred Tesla Service Center and installation are included with purchase. "
+        },
+        {
+            "category": "wheels",
+            "name": "21\" Turbine Wheel and Tire Package",
+            "cost":"$6000",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/2MP7Gt0/1019309-00-C-0.jpg",
+                "https://i.ibb.co/fDgxNjP/1019309-00-C-1.jpg"
+            ],
+            "description": "Be daring with aggressive 21\" Wheels that signify a performance vehicle. Preferred by many car enthusiasts, 21\" wheels allow tires with a lower profile to ably fill in the wheel well for a modern, rich aesthetic. Continental high-performance tires come with the package.",
+            "includes": [
+                "2x 21X8.5J Turbine wheels",
+                "2x 21X9.0J Turbine wheels",
+                "2x 245/35/21 - Continental tires",
+                "2x 265/35/21 - Continental tires",
+                "4x tire pressure sensors",
+                "4x Tesla logo wheel caps"
+            ],
+            "note": "Compatible with Model S vehicles produced in 2012-2020. Once you have completed checkout for this item, please schedule a Service appointment for installation in your Tesla app. Shipping to your preferred Tesla Service Center and installation are included with purchase."
+        },
+        {
+            "category": "wheels",
+            "name": "21\" Twin Turbine Wheel and Tire Package",
+            "cost":"$6000",
+            "color": [
+                "Silver",
+                "Sonic carbon"
+            ],
+            "thumbnails":[
+                "https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_S/WHEELS_TIRES/1457559-00-A_0.jpg",
+                "https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_S/WHEELS_TIRES/1457559-00-A_1.jpg",
+                "https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_S/WHEELS_TIRES/1457559-00-A_2.jpg",
+                "https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_S/WHEELS_TIRES/1457559-00-A_alt.jpg"
+            ],
+            "description": "With a visually striking design, the Tesla Twin Turbine wheels offer a more enjoyable driving experience by improving handling and acceleration. Michelin Pilot Super Sport high-performance tires come with the package to maximize the performance of your vehicle.",
+            "includes": [
+                "2x 21X8.5J Twin Turbine wheels",
+                "2x 21X9.0J Twin Turbine wheels",
+                "2x 245/35/21 – Michelin Pilot Super Sport tires",
+                "2x 265/35/21 - Michelin Pilot Super Sport tires",
+                "4x tire pressure sensors",
+                "4x Tesla logo wheel caps",
+                "20x Twin Turbine lug nut caps"
+            ],
+            "note": "Compatible with Model S vehicles produced in 2012-2020. Once you have completed checkout for this item, please schedule a Service appointment for installation in your Tesla app. Shipping to your preferred Tesla Service Center and installation are included with purchase. "
+        },
+        {
+            "category": "wheels",
+            "name": "Wheel Locks",
+            "cost":"$50",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/gDrHTLP/1130327-00-B-0.jpg",
+                "https://i.ibb.co/RTDCr5m/1130327-00-B-2.jpg"
+            ],
+            "description": "Protect your Tesla Wheels with a specially-designed lock set. Forged steel construction and different key patterns provide maximum security.The kit is easy to use and functions like regular lug nuts do. The kit includes a special tool for installation and removal.",
+            "includes": [
+                "4x custom designed wheel locks",
+                "1x wheel lock key"
+            ],
+            "note": ""
+        },
+        {
+            "category": "wheels",
+            "name": "Tire Repair Sealant",
+            "cost":"$25",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/ZXkdk54/1107992-00-A-0.jpg"
+            ],
+            "description": "For use specifically with the Tesla Tire Repair Kit, this sealant is a replacement for when the sealant included with the tire repair kit has been used or reaches its expiration date.",
+            "includes": [],
+            "note": ""
+        },
+        {
+            "category": "floor mats",
+            "name": "All-Weather Interior Mats",
+            "cost":"$180",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/0ZSTtGr/1666816-00-A-0.jpg",
+                "https://i.ibb.co/XCjK0M4/1666816-00-A-1.jpg",
+                "https://i.ibb.co/BZV9mTX/1666816-00-A-2.jpg",
+                "https://i.ibb.co/Wz79LKw/1666816-00-A-3.jpg",
+                "https://i.ibb.co/W34wCpJ/1666816-00-A-4.jpg"
+            ],
+            "description": "Model S All-Weather Interior Mats are made from a thermoplastic elastomer material for maximum protection and custom-fit coverage. Designed exclusively for Model S by Tesla Design Studio, the four piece set features two separate mats in the second row for easy removal and cleanup with a small Tesla wordmark lining each piece.",
+            "includes": [
+                "1x first row all-weather mat [driver]",
+                "1x first row all-weather mat [passenger]",
+                "2x second row all-weather mat"
+            ],
+            "note": "Compatible with Model S vehicles produced in 2021+."
+        },
+        {
+            "category": "floor mats",
+            "name": "All-Weather Interior Liners",
+            "cost":"$230",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/SNvymWX/1019290-00-B-0.jpg",
+                "https://i.ibb.co/QJqKzCg/1019290-00-B-1.jpg",
+                "https://i.ibb.co/6t16pZp/1019290-00-B-4.jpg"
+            ],
+            "description": "Model S All-Weather Interior Liners are made from thermoplastic elastomer material for ultimate protection and spatial coverage. Unlike traditional floor mats, liners are comprised of vertical walls that ensure maximum protection to the interior carpet and easy cleanup.",
+            "includes": [
+                "1x first row all-weather liner [driver]",
+                "1x first row all-weather liner [passenger]",
+                "1x second row all-weather liner"
+            ],
+            "note": "Compatible with Model S vehicles produced in 2012-2020."
+        },
+        {
+            "category": "floor mats",
+            "name": "All-Weather Rear Trunk Liner Set",
+            "cost":"$200",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/vjFSkwr/1019291-01-A-0.jpg",
+                "https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_S/INTERIOR/1019291-01-A_1.jpg",
+                "https://i.ibb.co/RypfrtZ/1019291-01-A-alt.jpg"
+            ],
+            "description": "The Model S All-Weather Rear Trunk Liner Set is custom made using digital laser measurements for your Model S. This extreme-duty floor protection covers and protects your Model S by keeping it free from dirt and spills. The floor liners are made from thermoplastic elastomer material, which has a rigid core for unbeatable strength and easy cleanup.",
+            "includes": [
+                "1x rear trunk all-weather liner",
+                "1x rear well all-weather liner"
+            ],
+            "note": "Compatible with Model S vehicles produced in 2012-2020."
+        },
+        {
+            "category": "parts",
+            "name": "Paint Repair Kit",
+            "cost":"$60",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/Lz8pk0q/9000002-0.jpg"
+            ],
+            "description": "Cover up paint chips from road debris and rocks with the Tesla Paint Repair Kit. Application is quick and allows users to easily fill in paint chips to a smooth surface within a few simple steps. This paint system is a two stage process of applying paint to cover the defect and then blending the excess paint to smooth the finish. This process can be repeated multiple times to build layers of paint and fill in chips of varying depth per the desired results.Please see the below detailed instructional video on this product. When placing your order, please ensure to match the product four-letter paint code with the vehicle paint code located on the label attached to the driver side door.",
+            "includes": [
+                "1x 0.5oz bottle of OEM paint",
+                "1x 1oz bottle of blending solution",
+                "1x squeegee (used for large application needs)",
+                "1x micro brush",
+                "1x ultra brush",
+                "1x wiping cloth",
+                "1x micro fiber towel"
+            ],
+            "note": "Paint Repair Kits are final sale. White is not compatible with Pearl White paint. Final results of Pearl White may appear slightly different than the rest of your vehicle depending on the lighting environment and application process used."
+        },
+        {
+            "category": "parts",
+            "name": "",
+            "cost":"$",
+            "color": [],
+            "thumbnails":[],
+            "description": "",
+            "includes": [],
+            "note": ""
+        },
+        {
+            "category": "parts",
+            "name": "Roadside Safety Kit",
+            "cost":"$65",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/WH3YsF0/1102893-00-A-0.jpg",
+                "https://i.ibb.co/rHqpXrH/1102893-00-A-1.jpg"
+            ],
+            "description": "Tesla Roadside Safety Kit keeps emergency supplies organized and compact in the rear or front trunk. This kit features essential first-aid items, reflective safety vest, warning triangle, emergency blanket and a highly durable and water-resistant Tesla storage bag. All of the items are organized in individual expandable pockets; the high-tech hook back panel keeps the kit in a fixed place.",
+            "includes": [
+                "2x bandage – 6cm x 4cm",
+                "3x bandage – 8cm x 4cm",
+                "4x bandage – 10cm x 6cm",
+                "2x bandage – 12cm x 2cm",
+                "2x bandage – 1.9cm x 7.2cm",
+                "4x bandage – 2.5cm x 7.2cm",
+                "2x triangular bandage – 96cm x 96cm x 136cm",
+                "1x compression bandage – 10cm x 12cm",
+                "2x compression bandage – 8cm x 10 cm",
+                "1x compression bandage – 6cm x 8cm",
+                "6x compress – 10cm x 10cm",
+                "1x dressing – 40cm x 60cm",
+                "1x dressing – 60cm x 80cm",
+                "2x fingertip dressing",
+                "2x cleansing wipe",
+                "1x adhesive tape",
+                "1x vinyl glove pair",
+                "1x scissors",
+                "1x first aid blanket",
+                "1x safety vest",
+                "1x safety vest pouch",
+                "1x warning triangle",
+                "1x first aid manual",
+                "1x storage bag"
+            ],
+            "note": ""
+        },
+        {
+            "category": "parts",
+            "name": "HEPA Air Filtration Upgrade",
+            "cost":"$500",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/m56pzZx/1494109-00-A-0.jpg",
+                "https://i.ibb.co/mcsjsD7/1494109-00-A-1.jpg"
+            ],
+            "description": "Upgrade your Model S with HEPA Air Filtration for the freshest cabin air available. This package includes Bioweapon Defense Mode firmware as a feature of the HEPA system and comes with a new HEPA filter.",
+            "includes": [],
+            "note": "Compatible with Model S vehicles with updated front bumper fascia and produced between April 2016-2020. Once you have completed checkout for this item, please schedule a Service appointment for installation in your Tesla app. Shipping to your preferred Tesla Service Center and installation are included with purchase"
+        }
+    ]
+}

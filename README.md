@@ -1,5 +1,5 @@
 # SecondProject
-
-important paths:
-images: tesla>data>images
-shop data: home>db
+project name: #tesla.com
+#important paths:
+-images: tesla>data>images
+-shop data: home>db

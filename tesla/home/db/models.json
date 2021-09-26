@@ -352,16 +352,6 @@
         },
         {
             "category": "parts",
-            "name": "",
-            "cost":"$",
-            "color": [],
-            "thumbnails":[],
-            "description": "",
-            "includes": [],
-            "note": ""
-        },
-        {
-            "category": "parts",
             "name": "Roadside Safety Kit",
             "cost":"$65",
             "color": [],
@@ -410,6 +400,46 @@
             "description": "Upgrade your Model S with HEPA Air Filtration for the freshest cabin air available. This package includes Bioweapon Defense Mode firmware as a feature of the HEPA system and comes with a new HEPA filter.",
             "includes": [],
             "note": "Compatible with Model S vehicles with updated front bumper fascia and produced between April 2016-2020. Once you have completed checkout for this item, please schedule a Service appointment for installation in your Tesla app. Shipping to your preferred Tesla Service Center and installation are included with purchase"
+        },
+        {
+            "category": "parts",
+            "name": "HEPA Air Filtration Upgrade",
+            "cost":"$500",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/TMmyhjC/1494109-00-A-0.jpg",
+                "https://i.ibb.co/tJfGfm5/1494109-00-A-1.jpg",
+                "https://i.ibb.co/TbnzVYt/1494109-00-A-2.jpg"
+            ],
+            "description": "Upgrade your Model S with HEPA Air Filtration for the freshest cabin air available. This package includes Bioweapon Defense Mode firmware as a feature of the HEPA system and comes with a new HEPA filter.",
+            "includes": [],
+            "note": "Compatible with Model S vehicles with updated front bumper fascia and produced between April 2016-2020. Once you have completed checkout for this item, please schedule a Service appointment for installation in your Tesla app. Shipping to your preferred Tesla Service Center and installation are included with purchase"
+        },
+        {
+            "category": "keys",
+            "name": "Model S Key Band",
+            "cost":"$18",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/4SKWCFt/1490875-00-A-0.jpg",
+                "https://i.ibb.co/4d5fPrH/1587383-00-A-1.jpg"
+            ],
+            "description": "Custom made and available for every model, the Tesla Key Band provides a sleek and convenient key solution to your current key fob. Comprised of a silicone band attached to a metal key ring and finished with a tastefully embossed logo, the key band is a perfect fit for any model.",
+            "includes": [],
+            "note": "Compatible with all Model S vehicles. Key fob not included."
+        },
+        {
+            "category": "keys",
+            "name": "Key Card",
+            "cost":"$35",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/jkDsmtG/1131087-00-F-0.jpg",
+                "https://i.ibb.co/nbHVHrk/1131087-00-F-1.jpg"
+            ],
+            "description": "Model S, Model 3, Model X, and Model Y vehicles come with two Key Cards and one bifold wallet for easy entry, operation and transport. Key Cards are convenient for when your phone is not accessible, out of battery or if someone else needs temporary access, such as a valet.",
+            "includes": [],
+            "note": "Compatible with Model S and Model X vehicles produced in 2021+ and all Model 3 and Model Y vehicles. Access cannot be granted from the passenger side of the vehicle."
         }
     ]
 }

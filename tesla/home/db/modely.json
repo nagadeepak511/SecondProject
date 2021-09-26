@@ -1,0 +1,212 @@
+{
+    "data":[
+        {
+            "category": "interior",
+            "name": "Model Y Illuminated Door Sills",
+            "cost":"$250",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/m4JjJZr/1658682-01-A-5.jpg",
+                "https://i.ibb.co/71YYPnC/1658682-01-A-7.jpg"
+            ],
+            "description": "Add a premium touch to your Tesla by accentuating your vehicle’s model name with Model Y Illuminated Door Sills. This elegant addition requires no additional wiring to your vehicle’s electrical system. Each sill is activated by a magnetic switch and powered by a long-lasting battery with LEDs for seamless installation.",
+            "includes": [
+                "2x illuminated door sills",
+                "2x magnetic switches & installation templates",
+                "1x pry tool",
+                "1x sills installation indicator",
+                "1x gloves",
+                "2x alcohol wipes"
+            ],
+            "note": ""
+        },
+        {
+            "category": "interior",
+            "name": "USB Drive - 128 GB",
+            "cost":"$45",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/58MZJNk/1628188-00-A-0.jpg",
+                "https://i.ibb.co/K0P5k53/1628188-00-A-1.jpg"
+            ],
+            "description": "Store your Sentry Mode and Dashcam footage with the USB Drive - 128 GB. Protect against theft, break-ins and threats when your car is left unattended with up to 128 GB of video storage capacity. Insert the pre-formatted USB Drive into the USB-A port inside the center console or the rear of the glove box before enabling Sentry Mode for a unique layer of safety and security you can take anywhere.",
+            "includes": [
+
+            ],
+            "note": "USB - 128 GB is included with all new vehicle deliveries."
+        },
+        {
+            "category": "interior",
+            "name": "Model 3/Y Automatic Garage Opener",
+            "cost":"$325",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/k47Sgwj/1508524-00-A-0.jpg"
+            ],
+            "description": "Come and go with easy access. Connect your Model 3 or Model Y to your garage door, gate system and other radio-frequency (RF) controlled devices with the fully integrated Homelink module.Learn more about the Automatic Garage Opener on our support page.",
+            "includes": [
+
+            ],
+            "note": "The Model 3/Y Automatic Garage Opener will be sent directly to the shipping address entered at checkout. Shipping and installation are included with purchase. Once you have received this item, please schedule a Service appointment for installation in your Tesla app. Do not tamper/open the package, as this will cause installation to be voided"
+        },
+        {
+            "category": "exterior",
+            "name": "Model Y Car Cover",
+            "cost":"$230 - $300",
+            "color": [
+                "outdoor",
+                "indoor"
+            ],
+            "thumbnails":[
+                "https://i.ibb.co/dkfmQhV/1553614-00-A-0.jpg",
+                "https://i.ibb.co/vZfCv34/1553614-00-A-1.jpg"
+            ],
+            "description": "Outdoor||Shield your Tesla from the harshest of elements with this Outdoor Car Cover. With a middle layer of Thermoplastic Polyurethane and two outer layers of woven polyester, the cover allows for breathability while providing the best water resistance available today. Convenient charge port openings allow for connection to an outlet, and ventilated mesh allow for air flow while charging.|Indoor||Stretch satin fits your Tesla like a glove, hugging its contours and protecting the paint finish from dings, scratches and dust that are imminent with indoor storage. Convenient charge port openings allow for connection to an outlet, and ventilated mesh allow for air flow while charging.",
+            "includes": [
+                "1x car cover",
+                "1x storage bag"
+            ],
+            "note": ""
+        },
+        {
+            "category": "exterior",
+            "name": "Model X/Y Ski/Snowboard Carrier for Hitch Rack",
+            "cost":"$280",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/GvdVTsh/1104792-00-A-0.jpg",
+                "https://i.ibb.co/PYxXWKk/1104792-00-A-1.jpg"
+            ],
+            "description": "Conveniently stow your skis and snowboards on the exterior of your Model X/Y. The Model X/Y Ski/Snowboard Carrier is easily assembled and allows for lockable storage with soft rubber coated arms that secure equipment without the risk of scratching ski or snowboard surfaces.",
+            "includes": [
+                "1x carrier",
+                "1x assembly hardware kit"
+            ],
+            "note": "This item must be used in conjunction with the Model X/Y Hitch Rack. When carrying bicycles or other items on the Model X/Y Hitch Rack, always check to ensure that the maximum weight is not exceeded. The Model X/Y Hitch Rack is designed to support loads of up to 120lbs. Compatible with all Model X and Model Y vehicles."
+        },
+        {
+            "category": "exterior",
+            "name": "Model Y Paint Protection Film",
+            "cost":"$50",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/yY3HwPC/1618247-00-A-0.jpg"
+            ],
+            "description": "Protect your Model Y from snow, salt, sand and small debris with the Model Y Paint Protection Film. Protect your paint from stone chips and driving conditions that can accelerate wear and tear.",
+            "includes": [
+                "2x clear protective film for rear fenders",
+                "1x squeegee"
+            ],
+            "note": ""
+        },
+        {
+            "category": "wheels",
+            "name": "Model Y 19\" Gemini Wheel and Winter Tire Package",
+            "cost":"$2850",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/Nn47cRN/1625535-00-A-0.jpg",
+                "https://i.ibb.co/y4kfy2F/1625535-00-A-1.jpg"
+            ],
+            "description": "Model Y 19\" Gemini Wheel and Winter Tire Package provides maximum safety and grip when driving in wet or dry conditions and on icy or snow-covered roads. The winter package guarantees a high level of traction, stability, and braking efficiency under 45° F, so you can enjoy wherever you drive with confidence and comfort.",
+            "includes": [
+                "4x 19x9.5J ET45 Gemini wheels",
+                "4x 255/45R19 Pirelli Winter Sottozero tires",
+                "4x tire pressure sensors"
+            ],
+            "note": "Gemini covers sold separately at Tesla Service Centers. Lug nut covers and center caps not included. Model Y Gemini Wheel Cap Kit can be purchased separately. Should you need to purchase an individual wheel or tire, please contact your preferred Tesla Service Center. Once you have completed checkout for this item, please schedule a Service appointment for installation in your Tesla app. Shipping to your preferred Tesla Service Center and installation are included with purchase."
+        },
+        {
+            "category": "wheels",
+            "name": "Model Y 20\" Induction Wheel and Winter Tire Package",
+            "cost":"$4500",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/cFBSTKr/1625536-00-A-0.jpg",
+                "https://i.ibb.co/QHPL827/1625536-00-A-1.jpg"
+            ],
+            "description": "Model Y 20\" Induction Wheel and Winter Tire Package provides maximum safety and grip when driving in wet or dry conditions and on icy or snow-covered roads. The winter package guarantees a high level of traction, stability and braking efficiency under 45°F, so you can enjoy wherever you drive with confidence and comfort.",
+            "includes": [
+                "4x 20X9.5J ET45 Induction Wheels",
+                "4x 255/40R20 Pirelli Winter Sottozero Tires",
+                "4x Tesla logo Induction wheel center caps",
+                "4x tire pressure sensors"
+            ],
+            "note": "Should you need to purchase an individual wheel or tire, please contact your closest Tesla Service Center. Once you have completed checkout for this item, please schedule a Service appointment for installation in your Tesla app. Shipping to your preferred Tesla Service Center and installation are included with purchase."
+        },
+        {
+            "category": "wheels",
+            "name": "Model Y 19\"/20\" Snow Chains",
+            "cost":"$200",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/6WsnxGf/1625881-00-A-0.jpg",
+                "https://i.ibb.co/QXqLnHy/1625881-00-A-1.jpg"
+            ],
+            "description": "The König XG-12 Pro 252 snow chain provides superior traction, driving comfort and performance in snowy conditions. Featuring easy installation, the patented micro-regulation system and pattern design with double traction plates offer perfect chain self-tensioning and excellent traction. Approved for Tesla-manufactured 19” and 20” wheels and Tesla-approved 19” and 20” tires for Model Y.",
+            "includes": [
+                "2x snow chains",
+                "1x storage case"
+            ],
+            "note": "Tesla recommends removing the Gemini Covers on 19” Gemini Wheels before installing snow chains to prevent potential scratches and scuffs. Snow chains should only be installed on the rear wheels of Model Y and only on 19\" and 20\" tires. The use of unrecommended snow chains has been shown to cause suspension and other vehicle damage."
+        },
+        {
+            "category": "floor mats",
+            "name": "Model Y All-Weather Interior Liners",
+            "cost":"$225",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/VJw52RT/1616599-00-A-0.jpg",
+                "https://i.ibb.co/PZ9BTvK/1616599-00-A-1.jpg"
+            ],
+            "description": "Model Y All-Weather Interior Liners are made from a thermoplastic elastomer material with a strong rigid core for extreme-duty protection and spatial coverage. Unlike traditional floor mats, Model Y All-Weather Interior Liners are comprised of vertical walls that offer maximum protection to the foot-well carpet and easy cleanup. Exclusive grid pattern crafted by Tesla's Design Studio and custom-made using the latest digital measurements for Model Y.",
+            "includes": [
+                "1x first row all-weather liner [driver]",
+                "1x first row all-weather liner [passenger]",
+                "1x second row all-weather liner"
+            ],
+            "note": ""
+        },
+        {
+            "category": "floor mats",
+            "name": "Model Y All-Weather Rear Cargo Liner Set",
+            "cost":"$185",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/qLS7ckb/1713539-00-A-0.jpg",
+                "https://i.ibb.co/NN5Pr20/1619350-00-A-1.jpg"
+            ],
+            "description": "Protect your rear cargo areas with this set comprised of a Model Y All-Weather Rear Trunk Liner and a Model Y All-Weather Rear Well Liner. Each liner is made from a thermoplastic elastomer material with a strong rigid core for extreme-duty protection and spatial coverage. Unlike traditional floor mats, the vertical walls of these liners offer maximum protection to the rear cargo carpet and easy cleanup. Exclusive pattern crafted by Tesla's Design Studio and custom made using the latest digital measurements for Model Y.",
+            "includes": [
+                "1x rear trunk all-weather liner",
+                "1x rear well all-weather liner"
+            ],
+            "note": "Only compatible with Model Y Five Seat Interior configuration."
+        },
+        {
+            "category": "floor mats",
+            "name": "Model Y All-Weather Front Trunk Liner",
+            "cost":"$70",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/CsRx32d/1618834-00-A-0.jpg",
+                "https://i.ibb.co/1nJF1hK/1618834-00-A-1.jpg"
+            ],
+            "description": "Model Y All-Weather Front Trunk Liner is made from a thermoplastic elastomer material with a strong rigid core for extreme-duty protection and spatial coverage. Unlike traditional floor mats, Model Y All-Weather Front Trunk Liner is comprised of vertical walls that offer maximum protection to the front trunk and easy cleanup. Exclusive pattern crafted by Tesla's Design Studio and custom made using the latest digital measurements for Model Y.",
+            "includes": [
+                "1x front trunk all-weather liner"
+            ],
+            "note": ""
+        },
+        {
+            "category": "parts",
+            "name": "",
+            "cost":"$",
+            "color": [],
+            "thumbnails":[],
+            "description": "",
+            "includes": [],
+            "note": ""
+        }
+    ]
+}

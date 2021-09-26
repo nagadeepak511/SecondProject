@@ -1,0 +1,151 @@
+{
+    "data": [
+        {
+            "category": "at home",
+            "name": "Wall Connector - 24 ft",
+            "cost":"$500",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/RBSKRRL/1457768-01-F-0.jpg",
+                "https://i.ibb.co/zNBmCYn/1457768-01-F-1.jpg"
+            ],
+            "description": "Wall Connector is the most convenient charging solution for houses, apartments, hospitality properties and workplaces.With up to 44 miles of range added per hour of charging, a 24-foot (7.3 meter) cable length, multiple power settings, and a versatile indoor/outdoor design, Wall Connector provides unparalleled convenience.Wall Connectors can power-share to maximize existing electrical capacity, automatically distributing power to charge multiple cars simultaneously.If you are a developer, manager or owner of commercial real estate and interested in purchasing more than 12 Wall Connectors, contact CommercialCharging@tesla.com.",
+            "includes": [
+
+            ],
+            "note": ""
+        },
+        {
+            "category": "at home",
+            "name": "Wall Connector Pedestal",
+            "cost":"$300",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/VCpmk25/1508484-00-B-0.jpg",
+                "https://i.ibb.co/Ycxd7ZW/1508484-00-B-1.jpg"
+            ],
+            "description": "The Wall Connector Pedestal is a rugged aluminum post designed for mounting both Gen 3 and Gen 2 Wall Connectors for stand-alone charging. With easy indoor and outdoor installation options, the Wall Connector Pedestal is ideal for any driveway, parking lot or property that requires a free-standing structure to support charging equipment. The Wall Connector Pedestal supports both single and dual mounted configurations for charging one or two Tesla vehicles at the same time.",
+            "includes": [
+                "1x pedestal",
+                "4x wire glands for global wiring options",
+                "4x mounting screws for securing Wall Connector to pedestal"
+            ],
+            "note": "Installation and Wall Connector(s) are not included. "
+        },
+        {
+            "category": "at home",
+            "name": "Cable Organizer",
+            "cost":"$35",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/z6MgPJQ/1521226-00-A-0.jpg",
+                "https://i.ibb.co/LhPt9fn/1521226-00-A-1.jpg"
+            ],
+            "description": "Store your Corded Mobile Connector with the newly redesigned Cable Organizer. This product features a sturdy bracket to keep your cables neatly stowed and a chassis holder to reduce additional wear and tear on your adaptor and outlet.",
+            "includes": [
+                "1x cable organizer bracket",
+                "1x chassis holder",
+                "1x installation hardware kit"
+            ],
+            "note": ""
+        },
+        {
+            "category": "on the road",
+            "name": "SAE J1772 Charging Adapter",
+            "cost":"$95",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/syqfsJC/1067348-00-A-0.jpg",
+                "https://i.ibb.co/y08ybB7/1067348-00-B-0-2000.jpg"
+            ],
+            "description": "Compatible with most Level 2 public charging stations, the J1772 Adapter supports charging speeds up to 19.2kW.This product comes standard with purchase of any Tesla vehicle.",
+            "includes": [
+                "1x SAE J1772 Charging Adapter"
+            ],
+            "note": "Compatible with all Tesla vehicles. Tesla does not regulate pricing or charging experiences at third-party charging stations. Public Level 2 charging stations may require payment. For more details on non-Tesla charging practices, please contact third-party EV charging stations directly."
+        },
+        {
+            "category": "on the road",
+            "name": "Corded Mobile Connector",
+            "cost":"$520",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/82Ywwvy/1106293-00-A-0.jpg",
+                "https://i.ibb.co/mJLKJys/1106293-00-A-alt.jpg"
+            ],
+            "description": "The Corded Mobile Connector features a NEMA 14-50 plug and improved charging speeds in comparison to the Gen 2 Mobile Connector with NEMA 5-15 Adapter. ",
+            "includes": [
+                "1x NEMA 14-50 Corded Mobile Connector - 20' cable",
+                "1x storage bag"
+            ],
+            "note": "Compatible with all Tesla vehicles. "
+        },
+        {
+            "category": "on the road",
+            "name": "CHAdeMO Adapter",
+            "cost":"$400",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/C0WmW24/1036392-10-C-0.jpg",
+                "https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_S/CHARGING_ADAPTERS/1036392-10-C_alt.jpg"
+            ],
+            "description": "Compatible with third-party DC fast charging networks, such as Electrify America and EVgo, the CHAdeMO adapter supports charging speeds up to 50kW.",
+            "includes": [
+                "1x CHAdeMO Adapter"
+            ],
+            "note": "Compatible with all Model S, Model X and Model Y vehicles. Compatible with Model 3 vehicles with 2019.24.1 firmware or newer. Tesla does not regulate pricing or charging experiences at third-party EV charging stations. Network membership is typically required at third-party CHAdeMO stations. For more details on non-Tesla charging practices, please contact third-party EV charging stations directly."
+        },
+        {
+            "category": "parts",
+            "name": "Wall Connector Fastener Kit",
+            "cost":"$20",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/jffQK6t/1551814-00-A-0.jpg"
+            ],
+            "description": "Replace a lost screw or keep a full set on hand with the Wall Connector Fastener Kit. Stay charged at home and keep the Gen 3 Wall Connector safely mounted with replacement screws only available from Tesla.",
+            "includes": [
+                "1x hex bit (4mm)",
+                "1x zip tie",
+                "4x wall connector-to-wirebox fasteners",
+                "2x wirebox-to-wall fasteners"
+            ],
+            "note": "Compatible with a 48A single phase Gen 3 Wall Connector."
+        },
+        {
+            "category": "parts",
+            "name": "Wall Connector White Glass Faceplate",
+            "cost":"$90",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/r3F3kmD/1551813-00-A-0.jpg",
+                "https://i.ibb.co/yqbGW5z/1551813-00-A-1.jpg"
+            ],
+            "description": "Replace your glass faceplate with an identical cover, available exclusively from Tesla. Make Gen 3 Wall Connector look as good as new and stay charged in style with a new faceplate.",
+            "includes": [
+                "1x white glass faceplate",
+                "2x glass cover fasteners"
+            ],
+            "note": "Compatible with all Gen 3 Wall Connectors."
+        },
+        {
+            "category": "parts",
+            "name": "Wall Connector Wirebox Kit",
+            "cost":"$65",
+            "color": [],
+            "thumbnails":[
+                "https://i.ibb.co/kGgMDsD/1551805-00-A-0.jpg"
+            ],
+            "description": "Replace your wirebox or keep this Wall Connector Wirebox Kit on hand when moving Gen 3 Wall Connector to a new location. Stay charged at home with a replacement wirebox only available from Tesla.",
+            "includes": [
+                "1x wirebox",
+                "2x external plugs (pre-installed)",
+                "1x hex bit (4mm)",
+                "1x zip tie",
+                "4x wall connector-to-wirebox fasteners",
+                "2x wirebox-to-wall fasteners"
+            ],
+            "note": "Compatible with a 48A single phase Gen 3 Wall Connector."
+        }
+    ]
+}

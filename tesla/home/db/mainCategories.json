@@ -1,9 +1,56 @@
 {
     "data":[
-        "charging",
-        "model s",
-        "model 3",
-        "model x",
-        "model y"
+        {
+            "category":"charging",
+            "subCategory":[
+                "At the home",
+                "Parts",
+                "On the road"
+            ]
+        },
+        {
+            "category":"model s",
+            "subCategory":[
+                "Interior",
+                "Exterior",
+                "Wheels",
+                "Parts",
+                "Keys",
+                "Floor mats"
+            ]
+        },
+        {
+            "category":"model 3",
+            "subCategory":[
+                "Interior",
+                "Exterior",
+                "Wheels",
+                "Parts",
+                "Keys",
+                "Floor mats"
+            ]
+        },
+        {
+            "category":"model x",
+            "subCategory":[
+                "Interior",
+                "Exterior",
+                "Wheels",
+                "Parts",
+                "Keys",
+                "Floor mats"
+            ]
+        },
+        {
+            "category":"model y",
+            "subCategory":[
+                "Interior",
+                "Exterior",
+                "Wheels",
+                "Parts",
+                "Keys",
+                "Floor mats"
+            ]
+        }
     ]
 }

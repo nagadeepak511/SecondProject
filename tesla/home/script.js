@@ -10,8 +10,8 @@ var models = [
 
 function loadCars(){
     for(var i=0; i<models.length; i++){
-        document.getElementsByTagName('body')[0].innerHTML = document.getElementsByTagName('body')[0].innerHTML + `
-        <div class="carContainer" style="background-image: url(../data/images/${models[i]}.jpg)">
+        document.getElementById('cars').innerHTML = document.getElementById('cars').innerHTML + `
+        <div id="${models[i]}" class="carContainer" style="background-image: url(../data/images/${models[i]}.jpg)">
             <div class="carDescription">
                 <h1 class="carModel">${models[i].split('-')[0].toUpperCase()} ${models[i].split('-')[1].toUpperCase()}</h1>
                 <a href="#">Order online for touchless delivery</a>

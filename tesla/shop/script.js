@@ -56,6 +56,8 @@ var categories = [
     `
 ]
 
+// category animation
+
 function showCategoryContianer(ind){
     document.getElementsByClassName('categories')[0].innerHTML = categories[ind]
     document.getElementsByClassName('categories')[0].style.visibility = 'visible'
@@ -65,6 +67,7 @@ function hideCategory(){
     document.getElementsByClassName('categories')[0].style.visibility = 'hidden'
 }
 
+// cart animation
 function ShowCart(){
     document.getElementsByClassName('cart')[0].style.visibility = 'visible'
     document.getElementsByTagName('header')[0].style.opacity = 0.1
@@ -85,8 +88,68 @@ function hideQuickAdd(i){
     document.getElementsByClassName('quickAdd')[i].style.visibility = 'hidden'
 }
 
+// add items to cart
+var addedItems = []
+
+function updateCartTotal(){
+    var total = 0
+    addedItems.map((item)=>{
+        total-=-item.cost.split('$')[1]
+    })
+    document.getElementById('cartTotal').innerHTML = '$' + total
+}
+
 function addItem(i){
-    
+    if(addedItems.filter((item)=>{
+        return item.name == document.getElementsByClassName('productName')[i].innerText
+    }).length==0){
+        addedItems.push({
+            "name":document.getElementsByClassName('productName')[i].innerText,
+            "thumb":document.getElementsByClassName('productImg')[i].getAttribute('src'),
+            "cost":document.getElementsByClassName('itemCost')[i].innerText
+        })
+    }
+    document.getElementById('addedItems').innerHTML=''
+    var ind=0
+    addedItems.map((addedi)=>{
+        document.getElementById('addedItems').innerHTML+=`
+            <div class="cartItem">
+                <img src="${addedi.thumb}" alt="" class="cartThumb">
+                <div class="cartItemDetails">
+                    <h4 class="cartItemName">${addedi.name}</h4>
+                    <p class="cartItemCost">${addedi.cost}</p>
+                </div>
+                <div>
+                    <button class="cartMinus" onclick="decrementQuantity(${ind})">-</button><span class="cartItemQuantity">1</span><button class="cartPlus" onclick="incrementQuantity(${ind})">+</button>
+                </div>
+            </div>
+        `
+        ind++
+    })
+    updateCartTotal()
+}
+
+// quantity
+function decrementQuantity(i){
+    document.getElementsByClassName('cartItemQuantity')[i].innerHTML = document.getElementsByClassName('cartItemQuantity')[i].innerHTML == 0?0:document.getElementsByClassName('cartItemQuantity')[i].innerHTML-1
+    if(document.getElementsByClassName('cartItemQuantity')[i].innerHTML == 0){
+        addedItems.splice(i)
+        document.getElementById('addedItems').innerHTML=''
+        addedItems.map((addedi)=>{
+            document.getElementById('addedItems').innerHTML+=`
+                <div class="cartItem">
+                    <img src="${addedi.thumb}" alt="" class="cartThumb">
+                    <h4 class="cartItemName">${addedi.name}</h4>
+                    <p class="cartItemCost">${addedi.cost}</p>
+                </div>
+            `
+        })
+    }
+    updateCartTotal()
+}
+
+function incrementQuantity(i){
+    document.getElementsByClassName('cartItemQuantity')[i].innerHTML -= -1
 }
 
 // var categories;

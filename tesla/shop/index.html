@@ -4,7 +4,7 @@
         
         <link rel="icon" href="../data/images/favicon.ico">
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+        <script src="./script.js"></script>
         <script src="https://kit.fontawesome.com/3e643419a6.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -18,7 +18,7 @@
                 <div id="rightLinkContainer">
                     <a href="#">Sign in</a>
                     <button href="#">Search</button>
-                    <button onclick="ShowCart()">Cart</button>
+                    <button onclick="ShowCart()"><i class="fas fa-shopping-cart"></i> Cart</button>
                 </div>
             </div>
             <div class="categories" onmouseleave="hideCategory()"></div>
@@ -26,55 +26,74 @@
         <div class="productsContainer">
             <div class="productDiv" onmouseover ="showQuickAdd(0)" onmouseleave="hideQuickAdd(0)">
                 <a href="#" class="product">
-                    <img src="https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_3/INTERIOR/1537260-01-A_3.jpg" alt="" >
+                    <img class="productImg" src="https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_3/INTERIOR/1537260-01-A_3.jpg" alt="" >
                     <h3 class="productName">Model 3 Illuminated Door Sills</h3>
+                    <p>$80</p>
                 </a>
                 <div class="quickAdd" onClick="addItem(0)">Quick Add +</div>
             </div>
-            <div class="productDiv" class="product" onmouseover ="showQuickAdd(1)" onmouseleave="hideQuickAdd(1)">
+            <div class="productDiv" onmouseover ="showQuickAdd(1)" onmouseleave="hideQuickAdd(1)">
                 <a href="#" class="product">
-                    <img src="https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_3/INTERIOR/1135833-00-B_2.jpg" alt="">
+                    <img class="productImg" src="https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_3/INTERIOR/1135833-00-B_2.jpg" alt="">
                     <h3 class="productName">Model 3 Glass Roof Sunshade</h3>
+                    <p class="itemCost">$80</p>
                 </a>
-                <div class="quickAdd">Quick Add +</div>
+                <div class="quickAdd" onClick="addItem(1)">Quick Add +</div>
             </div>
             <div class="productDiv" onmouseover ="showQuickAdd(2)" onmouseleave="hideQuickAdd(2)">
-                <a href="#" class="product" class="product">
-                    <img src="https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_3/INTERIOR/1634268-00-A_2.jpg" alt="">
+                <a href="#" class="product">
+                    <img class="productImg" src="https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_3/INTERIOR/1634268-00-A_2.jpg" alt="">
                     <h3 class="productName">Model 3 Center console trays</h3>
+                    <p class="itemCost">$80</p>
                 </a>
-                <div class="quickAdd">Quick Add +</div>
+                <div class="quickAdd" onClick="addItem(2)">Quick Add +</div>
             </div>
             <div class="productDiv" onmouseover ="showQuickAdd(3)" onmouseleave="hideQuickAdd(3)">
                 <a href="#" class="product" class="product">
-                    <img src="https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_3/INTERIOR/1537260-01-A_3.jpg" alt="">
+                    <img class="productImg" src="https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_3/INTERIOR/1537260-01-A_3.jpg" alt="">
                     <h3 class="productName">Model 3 Illuminated Door Sills</h3>
+                    <p class="itemCost">$80</p>
                 </a>
-                <div class="quickAdd">Quick Add +</div>
+                <div class="quickAdd" onClick="addItem(3)">Quick Add +</div>
             </div>
             <div class="productDiv" onmouseover ="showQuickAdd(4)" onmouseleave="hideQuickAdd(4)">
                 <a href="#" class="product" class="product">
-                    <img src="https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_3/INTERIOR/1135833-00-B_2.jpg" alt="">
+                    <img class="productImg" src="https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_3/INTERIOR/1135833-00-B_2.jpg" alt="">
                     <h3 class="productName">Model 3 Glass Roof Sunshade</h3>
+                    <p class="itemCost">$80</p>
                 </a>
-                <div class="quickAdd">Quick Add +</div>
+                <div class="quickAdd" onClick="addItem(4)">Quick Add +</div>
             </div>
             <div class="productDiv" onmouseover ="showQuickAdd(5)" onmouseleave="hideQuickAdd(5)">
                 <a href="#" class="product" class="product">
-                    <img src="https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_3/INTERIOR/1634268-00-A_2.jpg" alt="">
+                    <img class="productImg" src="https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_3/INTERIOR/1634268-00-A_2.jpg" alt="">
                     <h3 class="productName">Model 3 Center console trays</h3>
+                    <p class="itemCost">$80</p>
                 </a>
-                <div class="quickAdd">Quick Add +</div>
+                <div class="quickAdd" onClick="addItem(5)">Quick Add +</div>
             </div>
         </div>
         <div class="cart">
             <div id="closeContainer"><h6>Your cart(0)</h6><i id="closeButton" onclick="hideCart()" class="fas fa-times" aria-hidden="true"></i></div>
-            <div id="addedItems"></div>
+            <div id="addedItems">
+                <div class="cartItem">
+                    <img src="https://www.tesla.com/ns_videos/commerce/content/dam/tesla/CAR_ACCESSORIES/MODEL_3/INTERIOR/1135833-00-B_2.jpg" alt="" class="cartThumb">
+                    <div class="cartItemDetails">
+                        <h4 class="cartItemName">Model 3 Glass Roof Sunshade</h4>
+                        <p class="cartItemCost">$80</p>
+                        <div><button class="cartMinus" onclick="decrementQuantity(0)">-</button><span class="cartItemQuantity">1</span><button class="cartPlus" onclick="incrementQuantity(0)">+</button></div>
+                    </div>
+                    <i id="closeButton" onclick="hideCart()" class="fas fa-times" aria-hidden="true"></i>
+                </div>
+            </div>
             <div id="bottomCart">
-                <h4>Cart Total: $0.00</h4>
+                <h4 id="cartTotal">Cart Total: $0.00</h4>
                 <button class='primaryBtn'>check out</button>
                 <p>Free Shipping on all orders</p>
             </div>
         </div>
+        <script>
+            window.onload = updateCartTotal
+        </script>
     </body>
 </html>

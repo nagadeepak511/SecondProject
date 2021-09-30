@@ -12,6 +12,10 @@ body{
     overflow-x: hidden;
 }
 
+button{
+    cursor: pointer;
+}
+
 header{
     width: 100%;
 }
@@ -204,7 +208,7 @@ button{
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: baseline;
     visibility: hidden;
 }
 
@@ -252,13 +256,15 @@ button{
     height: 370px;
     overflow-x: hidden;
     overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
 }
 
 .quickAdd{
     position: relative;
     height: 80px;
     width: 100%;
-    bottom: 140px;
+    bottom: 175px;
     background-color: white;
     color: black;
     display: flex;
@@ -270,4 +276,31 @@ button{
     visibility: hidden;
     z-index: 9;
     cursor: pointer;
+}
+
+.cartItem{
+    height: 150px;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartThumb{
+    height: 100px;
+    width: 100px;
+    padding-left: 20px;
+}
+
+.cartItemDetails{
+    display: flex;
+    align-items: left;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.cartItemName{
+    margin-bottom: 5px;
 }

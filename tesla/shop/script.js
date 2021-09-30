@@ -93,22 +93,19 @@ var addedItems = []
 
 function updateCartTotal(){
     var total = 0
+    var ind=0
     addedItems.map((item)=>{
-        total-=-item.cost.split('$')[1]
+        total-=-item.cost.split('$')[1]*document.getElementsByClassName('cartItemQuantity')[ind].innerHTML
+        ind++
     })
     document.getElementById('cartTotal').innerHTML = '$' + total
 }
 
-function addItem(i){
-    if(addedItems.filter((item)=>{
-        return item.name == document.getElementsByClassName('productName')[i].innerText
-    }).length==0){
-        addedItems.push({
-            "name":document.getElementsByClassName('productName')[i].innerText,
-            "thumb":document.getElementsByClassName('productImg')[i].getAttribute('src'),
-            "cost":document.getElementsByClassName('itemCost')[i].innerText
-        })
-    }
+function updateItems(){
+    document.getElementById('closeContainer').innerHTML = `
+    <h6>Your cart(${addedItems.length})</h6>
+    <i id="closeButton" onclick="hideCart()" class="fas fa-times" aria-hidden="true"></i>
+    `
     document.getElementById('addedItems').innerHTML=''
     var ind=0
     addedItems.map((addedi)=>{
@@ -120,8 +117,9 @@ function addItem(i){
                     <p class="cartItemCost">${addedi.cost}</p>
                 </div>
                 <div>
-                    <button class="cartMinus" onclick="decrementQuantity(${ind})">-</button><span class="cartItemQuantity">1</span><button class="cartPlus" onclick="incrementQuantity(${ind})">+</button>
+                    <button class="cartMinus" onclick="decrementQuantity(${ind})">-</button><span class="cartItemQuantity">${addedi.quantity}</span><button class="cartPlus" onclick="incrementQuantity(${ind})">+</button>
                 </div>
+                <i class="removeCartItem fas fa-trash-alt" onclick="removeCartItem(${ind})" aria-hidden="true"></i>
             </div>
         `
         ind++
@@ -129,27 +127,38 @@ function addItem(i){
     updateCartTotal()
 }
 
+function addItem(i){
+    if(addedItems.filter((item)=>{
+        return item.name == document.getElementsByClassName('productName')[i].innerText
+    }).length==0){
+        addedItems.push({
+            "name":document.getElementsByClassName('productName')[i].innerText,
+            "thumb":document.getElementsByClassName('productImg')[i].getAttribute('src'),
+            "cost":document.getElementsByClassName('itemCost')[i].innerText,
+            "quantity":1
+        })
+    }
+    updateItems()
+}
+
 // quantity
 function decrementQuantity(i){
     document.getElementsByClassName('cartItemQuantity')[i].innerHTML = document.getElementsByClassName('cartItemQuantity')[i].innerHTML == 0?0:document.getElementsByClassName('cartItemQuantity')[i].innerHTML-1
     if(document.getElementsByClassName('cartItemQuantity')[i].innerHTML == 0){
-        addedItems.splice(i)
-        document.getElementById('addedItems').innerHTML=''
-        addedItems.map((addedi)=>{
-            document.getElementById('addedItems').innerHTML+=`
-                <div class="cartItem">
-                    <img src="${addedi.thumb}" alt="" class="cartThumb">
-                    <h4 class="cartItemName">${addedi.name}</h4>
-                    <p class="cartItemCost">${addedi.cost}</p>
-                </div>
-            `
-        })
+        addedItems.splice(i,1)
+        updateItems()
     }
-    updateCartTotal()
 }
 
 function incrementQuantity(i){
     document.getElementsByClassName('cartItemQuantity')[i].innerHTML -= -1
+    addedItems[i].quantity+=1
+    updateCartTotal()
+}
+
+function removeCartItem(i){
+    addedItems.splice(i,1)
+    updateItems()
 }
 
 // var categories;

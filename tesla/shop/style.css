@@ -304,3 +304,8 @@ button{
 .cartItemName{
     margin-bottom: 5px;
 }
+
+.removeCartItem{
+    padding: 15px;
+    cursor: pointer;
+}

@@ -1,4 +1,4 @@
-var api = 'https://tesla-clone-naga.herokuapp.com/'
+var api = 'https://tesla-clone-naga.herokuapp.com'
 
 var categories = [
         `<div class="categoryListContainer">
@@ -45,9 +45,9 @@ var categories = [
         </div>`,
     `
         <div class="categoryListContainer">
-            <div class="categoryList"><a href="" class="mainCategory">At the Home</a></div>
-            <div class="categoryList"><a href="" class="mainCategory">On the Road</a></div>
-            <div class="categoryList"><a href="" class="mainCategory">Parts</a></div>
+            <div class="categoryList"><a href="javascript:updateShopItems('https://tesla-clone-naga.herokuapp.com/charging/at home')" class="mainCategory">At Home</a></div>
+            <div class="categoryList"><a href="javascript:updateShopItems('https://tesla-clone-naga.herokuapp.com/charging/on the road')" class="mainCategory">On the Road</a></div>
+            <div class="categoryList"><a href="javascript:updateShopItems('https://tesla-clone-naga.herokuapp.com/charging/parts')" class="mainCategory">Parts</a></div>
         </div>
         <div class="categoryImageContainer">
             <img src="https://www.tesla.com/ns_videos/commerce/content/dam/tesla/tesla-shop-marketing-imagery/flyout-nav/feature_wall_connector.jpg" alt="" class="categoryImage">
@@ -161,10 +161,53 @@ function removeCartItem(i){
     updateItems()
 }
 
-// var categories;
+// get categories
+function getCategories(){
+    fetch(api+'/categories')
+    .then((res)=>{
+        return res.json()
+    })
+    .then((data)=>{
+        var s='<div class="categoryListContainer">'
+        for(var i=0; i<data[1].mainCategories.length; i++){
+            s+=`<div class="categoryList">
+            <a class="mainCategory" href="">${data[1].mainCategories[i].categoryName.toUpperCase()}</a>`
+            for(var j=0; j<data[1].mainCategories[i].subCategories.length; j++){
+                s+=`<li><a href="javascript:updateShopItems('https://tesla-clone-naga.herokuapp.com/${data[1].mainCategories[i].categoryName.replace(' ','')}/${data[1].mainCategories[i].subCategories[j].toLowerCase()}')">${data[1].mainCategories[i].subCategories[j]}</a></li>`
+            }
+            s+='</div>'
+        }
+        s+=`</div><div class="categoryImageContainer">
+        <img src="https://www.tesla.com/ns_videos/commerce/content/dam/tesla/tesla-shop-marketing-imagery/flyout-nav/feature_roof_rack.jpg" alt="" class="categoryImage">
+        <h1 class="categoryHeading">Charging</h1>
+    </div>`
+        categories[0] =s;
+    })
+}
 
-function getcategories(){
-    fetch(api+'models')
-    .then((res)=>{console.log(res)})
-    //.then((data)=>{console.log(data)})
+function updateShopItems(url){
+    fetch(url)
+    .then((res)=>{return res.json()})
+    .then((data)=>{
+        console.log(data)
+        document.getElementsByClassName('productsContainer')[0].innerHTML=``
+        for(var i=0; i<data.length; i++){
+            document.getElementsByClassName('productsContainer')[0].innerHTML+=`
+            <div class="productDiv" onmouseover ="showQuickAdd(${i})" onmouseleave="hideQuickAdd(${i})">
+                <a href="#" class="product">
+                    <img class="productImg" src="${data[i].thumbnails[0]}" alt="" >
+                    <h3 class="productName">${data[i].name}</h3>
+                    <p class="itemcost">${data[i].cost}</p>
+                </a>
+                <div class="quickAdd" onClick="addItem(${i})">Quick Add +</div>
+            </div>
+            `
+        }
+    })
+}
+
+// onload
+function onloadFunc(){
+    updateCartTotal()
+    getCategories()
 }

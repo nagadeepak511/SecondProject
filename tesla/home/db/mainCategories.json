@@ -1,55 +1,69 @@
 {
     "data":[
         {
-            "category":"charging",
-            "subCategory":[
-                "At the home",
-                "Parts",
-                "On the road"
+            "name":"charging",
+            "mainCategories":[
+                {
+                    "categoryName":"At the home",
+                    "subCategories":[]
+                },
+                {
+                    "categoryName":"On the road",
+                    "subCategories":[]
+                },
+                {
+                    "categoryName":"Parts",
+                    "subCategories":[]
+                }
             ]
         },
         {
-            "category":"model s",
-            "subCategory":[
-                "Interior",
-                "Exterior",
-                "Wheels",
-                "Parts",
-                "Keys",
-                "Floor mats"
-            ]
-        },
-        {
-            "category":"model 3",
-            "subCategory":[
-                "Interior",
-                "Exterior",
-                "Wheels",
-                "Parts",
-                "Keys",
-                "Floor mats"
-            ]
-        },
-        {
-            "category":"model x",
-            "subCategory":[
-                "Interior",
-                "Exterior",
-                "Wheels",
-                "Parts",
-                "Keys",
-                "Floor mats"
-            ]
-        },
-        {
-            "category":"model y",
-            "subCategory":[
-                "Interior",
-                "Exterior",
-                "Wheels",
-                "Parts",
-                "Keys",
-                "Floor mats"
+            "name":"Vehicle Accessories",
+            "mainCategories":[
+                {
+                    "categoryName":"model s",
+                    "subCategories":[
+                        "Interior",
+                        "Exterior",
+                        "Wheels",
+                        "Parts",
+                        "Keys",
+                        "Floor mats"
+                    ]
+                },
+                {
+                    "categoryName":"model 3",
+                    "subCategories":[
+                        "Interior",
+                        "Exterior",
+                        "Wheels",
+                        "Parts",
+                        "Keys",
+                        "Floor mats"
+                    ]
+                },
+                {
+                    "categoryName":"model x",
+                    "subCategories":[
+                        "Interior",
+                        "Exterior",
+                        "Wheels",
+                        "Parts",
+                        "Keys",
+                        "Floor mats"
+                    ]
+                },
+                {
+                    "categoryName":"model y",
+                    "subCategories":[
+                        "Interior",
+                        "Exterior",
+                        "Wheels",
+                        "Parts",
+                        "Keys",
+                        "Floor mats"
+                    ]
+                }
             ]
         }
     ]

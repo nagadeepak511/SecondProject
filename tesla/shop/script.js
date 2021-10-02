@@ -127,7 +127,7 @@ function updateItems(){
     updateCartTotal()
 }
 
-function addItem(i){
+async function addItem(i){
     if(addedItems.filter((item)=>{
         return item.name == document.getElementsByClassName('productName')[i].innerText
     }).length==0){
@@ -139,6 +139,12 @@ function addItem(i){
         })
     }
     updateItems()
+    document.getElementsByClassName('productsContainer')[0].style.display = 'none'
+    document.getElementsByClassName('loader')[0].style.display = 'inline-block'
+    setTimeout(()=>{
+        document.getElementsByClassName('productsContainer')[0].style.display = 'flex'
+        document.getElementsByClassName('loader')[0].style.display = 'none'
+    }, 1000)
 }
 
 // quantity
@@ -179,13 +185,21 @@ function getCategories(){
         }
         s+=`</div><div class="categoryImageContainer">
         <img src="https://www.tesla.com/ns_videos/commerce/content/dam/tesla/tesla-shop-marketing-imagery/flyout-nav/feature_roof_rack.jpg" alt="" class="categoryImage">
-        <h1 class="categoryHeading">Charging</h1>
+        <h1 class="categoryHeading">Vehicle Accessories</h1>
     </div>`
         categories[0] =s;
     })
 }
 
 function updateShopItems(url){
+    hideCategory()
+    document.getElementsByClassName('productsContainer')[0].style.display = 'none'
+    document.getElementsByClassName('loader')[0].style.display = 'inline-block'
+    setTimeout(()=>{
+        document.getElementsByClassName('productsContainer')[0].style.display = 'flex'
+        document.getElementsByClassName('loader')[0].style.display = 'none'
+    }, 1000)
+
     fetch(url)
     .then((res)=>{return res.json()})
     .then((data)=>{
